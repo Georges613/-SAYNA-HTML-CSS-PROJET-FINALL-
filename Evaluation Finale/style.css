@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d35649;
+}
+
+header>div>nav {
+    padding: 0;
+}
+
+.menu:hover {
+   color: #98a5a5 !important;
+}
+.col-2.d-flex.justify-content-center i:hover{
+    color: #98a5a5 !important;
+}
+
+nav>div>p>img {
+    padding-right: 15%;
+}
+.btn.btn-outline-light>a:hover{
+    color: #98a5a5  !important;
+}
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    float: right;
+}
+
+.btn.btn-outline-light:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footer1 {
+    background-color: #1f1f1f;
+    width: 100%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer>div>div>div>a {
+    padding: 0 1%;
+}
+
+.footer2 div.col{
+    padding:0%;
+}
+div.col i.fa-brands:hover{
+    color: #575a89;
+}
+
+.email:hover{
+    text-decoration: underline !important;
+}
+
+.learn_more:hover{
+    text-decoration: underline !important;
+}
+
+.footer2 {
+    background-color: #444;
+}
+.footer2>div>div>div>i{
+    cursor: pointer;
+}
+.footer2>div>div>div>i:hover{
+    color: #575a89 !important;
+}
+div>figure{
+    position: relative;
+    text-align: center;
+}
+figcaption{
+    position: absolute;
+    top: 2%;
+    left: 20%
+}
+
+.d-grid.gap-2.d-md-flex.justify-content-md-end>.btn.btn-primary:hover{
+    background-color: blue;
+}
+
+/**media queries**/
+@media screen  and (max-device-width: 768px) {
+    header>div>.row.justify-content-between.d-block-md{
+        display: block;
+        text-align: center !important;
+    }
+    header>div>div>nav.row.col.justify-content-end.align-items-center{
+        justify-content: center !important;
+        padding-bottom: 1%;
+    }
+    header>div>div>nav.row.col.justify-content-start.d-flex>div{
+        justify-content: center !important;
+    }
+    .image-search>.row.justify-content-center.d-block.d-flex-md{
+        text-align: center !important;
+    }
+    figure>a>img{
+        width: 150%;
+    }
+    figcaption{
+        font-size: small !important;
+        left: 5%
+    }
